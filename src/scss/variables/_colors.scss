@@ -5,11 +5,14 @@
 // Pre-state grayscale colors used in other variables
 
 $gray-800: #343a40;
+$gray-900: #121212; // dark background
 
 // Override Bootstrap color system
 
-$orange: #bd5d38;
+$red: #e53935; // Cool red
+$body-bg: #ffffff; // White background
+$body-color: $gray-800; // Dark text
 
 // Override Bootstrap default state colors
 
-$primary: $orange;
+$primary: $red;
